@@ -1,6 +1,6 @@
 # Gone Home walkthrough
 
-This guide lists all(?) points of interest in [Fullbright][]'s 2013 exploration game, [Gone Home][gh].
+This guide lists all(?) points of interest in [Fullbright][]'s 2013 exploration game, [Gone Home][].
 
 [Fullbright]: https://fullbrig.ht/
 [Gone Home]:  http://gonehome.game/
