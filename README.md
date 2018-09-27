@@ -9,7 +9,7 @@ This guide lists all(?) points of interest in [Fullbright][]'s 2013 exploration 
 
 <https://zgracem.github.io/gone-home-walkthrough>
 
-## Instructions
+## Development
 
 1. Clone this repo somewhere.
 2. `cd ~/somewhere/gone-home-walkthrough && bundle install`
