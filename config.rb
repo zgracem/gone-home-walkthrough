@@ -21,43 +21,6 @@ end
 
 config[:relative_links] = true
 
-# # Redcarpet Markdown
-
-# config[:markdown_engine] = :redcarpet
-
-# markdown_options = {
-#   # make “smart” quotes
-#   smartypants: true,
-#   # do not parse emphasis inside of words (foo_bar_baz)
-#   no_intra_emphasis: true,
-#   # parse tables, PHP-Markdown style
-#   tables: false,
-#   # parse ``` or ~~~ fenced code blocks, PHP-Markdown style
-#   fenced_code_blocks: true,
-#   # parse links even when they are not enclosed in <> characters
-#   autolink: true,
-#   # do not parse usual Markdown code blocks
-#   disable_indented_code_blocks: true,
-#   # parse ~~strikethrough~~, PHP-Markdown style
-#   strikethrough: true,
-#   # HTML blocks are not required to be surrounded by an empty line
-#   lax_spacing: true,
-#   # require space after a header's hash, e.g. #this is an invalid header
-#   space_after_headers: true,
-#   # parse superscripts after ^; e.g. this is the 2^(nd) time
-#   superscript: false,
-#   # parse underscored emphasis as _underlined_, but this is still *italic*
-#   underline: false,
-#   # parse ==highlighted== as <mark>highlighted</mark>
-#   highlight: true,
-#   # parse "quotes" to <q>quotes</q>
-#   quote: false,
-#   # parse footnotes, PHP-Markdown style[^1]
-#   footnotes: true
-# }
-
-# config[:markdown] = markdown_options
-
 # Slim
 
 # Slim::Embedded.options[:markdown]   = markdown_options
