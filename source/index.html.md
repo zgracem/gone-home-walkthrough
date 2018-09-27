@@ -5,16 +5,16 @@ title:  Gone Home walkthrough
 _Gone Home_ Walkthrough
 =======================
 
-- [First Floor: Entrance &amp; West Wing](#first-floor-west)
+- [First Floor, Entrance &amp; West Wing](#first-floor-west)
 - [Second Floor](#second-floor)
 - [Secrets](#secrets)
 - [Basement](#basement)
-- [First Floor: East Wing](#first-floor-east)
+- [First Floor, East Wing](#first-floor-east)
 - [Home](#home)
 
 -----------------------------------------------------------------------------
 
-First Floor: Entrance & West Wing {#first-floor-west}
+First Floor, Entrance & West Wing {#first-floor-west}
 ---------------------------------
 
 ### Porch
@@ -304,7 +304,7 @@ Basement
 * Newspaper clipping in drawer
 * Hidden stairs behind bookcase
 
-First Floor: East Wing {#first-floor-east}
+First Floor, East Wing {#first-floor-east}
 ----------------------
 
 ### Hidden room
