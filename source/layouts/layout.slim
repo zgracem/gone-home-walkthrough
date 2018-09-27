@@ -1,0 +1,10 @@
+doctype 5
+html lang="en-US"
+  head
+    meta charset="utf-8"
+    title = current_page.data.title
+    = favicon_tag "favicon.png"
+    = stylesheet_link_tag "gonehome"
+
+  body
+    == yield

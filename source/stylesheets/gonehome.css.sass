@@ -1,0 +1,121 @@
+// ----------------------------------------------------------------------------
+// gonehome.sass
+// ----------------------------------------------------------------------------
+
+@import "colour-cga16"
+
+$bg:          $cga-black
+$fg:          $cga-white
+
+$link:        $cga-cyan
+$hlink:       $cga-brcyan
+
+$faint:       $cga-darkgrey
+$border:      $faint
+$bright:      $cga-brwhite
+
+$select-bg:   $cga-magenta
+$select-fg:   $cga-bryellow
+
+@import "cp437"
+
+// ----------------------------------------------------------------------------
+// basic
+// ----------------------------------------------------------------------------
+
+html
+  +vignette($bg, darken($cga-magenta, 27%), $midpoint: 50%)
+
+body
+  @extend %vga
+  // override
+  line-height: 1.2
+
+  color: $fg
+  margin: 4em auto
+  max-width: 42em
+
+a:link, a:visited
+  color: $link
+a:hover, a:active
+  color: $hlink
+
+%underline
+  text-decoration: underline
+
+// ----------------------------------------------------------------------------
+// headings
+// ----------------------------------------------------------------------------
+
+h1
+  color: $bright
+  margin-bottom: 2em
+
+  em
+    @extend %underline
+
+  &::before
+    content: "\2302"
+    margin-left: -1em
+    margin-right: 0.5em
+
+h2
+  color: $cga-magenta
+  border-top: 1px solid $faint
+  padding-top: 0.5em
+  margin-top: 2.5em
+  margin-bottom: 2em
+
+  margin-left: -1em
+  text-indent: 1em
+
+h3
+  color: $cga-brown
+  margin-top: 2em
+  margin-bottom: 1em
+
+// ----------------------------------------------------------------------------
+
+p, ul
+  margin-bottom: 1em
+
+ul
+  li
+    text-indent: -1em
+
+  li::before
+    content: "\25cb"
+    margin-right: 0.5em
+
+  & &
+    margin-left: 1em
+    margin-bottom: 0
+
+    li::before
+      content: "\00bb"
+
+h1 + ul li::before
+  content: "\bb"
+
+li, hr + p
+  em
+    &:before, &:after
+      content: "\""
+
+code
+  color: $cga-cyan
+
+strong
+  font-weight: normal
+  color: $cga-red
+
+h3#porch, h3#attic
+  & + ul strong
+    color: $cga-green
+
+hr
+  height: 1em
+  margin: 1em 0 3em 0
+
+hr + p
+  color: $cga-brblack

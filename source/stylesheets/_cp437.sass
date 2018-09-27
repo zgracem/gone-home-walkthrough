@@ -1,0 +1,61 @@
+// ----------------------------------------------------------------------------
+// cp437.sass
+// ----------------------------------------------------------------------------
+
+@import "reset", "setup"
+
+// fonts
+
+@font-face
+  font-family: "IBM VGA8"
+  src: url(font-path("ibm_vga8.woff2")) format("woff2"), url(font-path("ibm_vga8.woff")) format("woff"), url(font-path("ibm_vga8.ttf")) format("truetype")
+  font-weight: normal
+  font-style: normal
+
+%vga
+  font-family: "IBM VGA8"
+  font-size: 16px
+  line-height: 1.111
+  margin: 0
+
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-smooth: never
+
+// ----------------------------------------------------------------------------
+// basic
+// ----------------------------------------------------------------------------
+
+b, strong
+  font-weight: normal
+
+i, cite, em, var, address, dfn
+  font-style: normal
+
+a
+  text-decoration: none
+  color: inherit
+
+// ----------------------------------------------------------------------------
+// fancy
+// ----------------------------------------------------------------------------
+
+=shadow($colour: $cga_black)
+  box-shadow: 0.5em 0.5em 0 0 $colour
+
+// apply to `a` elements
+=reverse($colour: $link, $hover-bg: $colour, $hover-fg: $bg)
+  &:link, &:visited
+    color: $colour
+  &:hover, &:active
+    &, &:before, &:after
+      background-color: $hover-bg
+      color: $hover-fg
+
+=vignette($bg, $vignette, $midpoint: 66.666%)
+  background-color: $bg
+  background-image: radial-gradient(circle, $bg 0%, $bg $midpoint, $vignette 100%)
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  background-attachment: fixed
