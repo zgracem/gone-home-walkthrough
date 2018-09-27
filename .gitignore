@@ -3,5 +3,5 @@
 .DS_Store
 .keep
 .sass-cache
-build/
+docs/
 Gemfile.lock

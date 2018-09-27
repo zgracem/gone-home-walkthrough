@@ -4,6 +4,7 @@ config[:css_dir]      = "stylesheets"
 config[:fonts_dir]    = "fonts"
 config[:js_dir]       = "js"
 config[:images_dir]   = "images"
+config[:build_dir]    = "docs"
 
 configure :server do
   config[:port]       = 1995
@@ -15,7 +16,7 @@ configure :server do
 end
 
 configure :build do
-  config[:http_prefix] = "/~zgm/gone-home-walkthrough"
+  config[:http_prefix] = "/gone-home-walkthrough"
 end
 
 config[:relative_links] = true
