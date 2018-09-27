@@ -7,14 +7,14 @@ This guide lists all(?) points of interest in [Fullbright][]'s 2013 exploration 
 
 ## Preview
 
-<https://inescapable.org/~zgm/gone-home-walkthrough>
+<https://zgracem.github.io/gone-home-walkthrough>
 
 ## Instructions
 
 1. Clone this repo somewhere.
 2. `cd ~/somewhere/gone-home-walkthrough && bundle install`
 3. Now `bundle exec middleman` will start a server at `http://localhost:1995`,
-   and `bundle exec middleman build` will build static files to the `build/`
+   and `bundle exec middleman build` will build static files to the `docs/`
    subdirectory.
 
 ## Credits
