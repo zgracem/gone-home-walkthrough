@@ -2,19 +2,19 @@
 title:  Gone Home walkthrough
 ---
 
-_Gone Home_ Walkthrough
+_Gone Home_ walkthrough
 =======================
 
-- [First Floor, Entrance &amp; West Wing](#first-floor-west)
-- [Second Floor](#second-floor)
+- [First floor, entrance &amp; west wing](#first-floor-west)
+- [Second floor](#second-floor)
 - [Secrets](#secrets)
 - [Basement](#basement)
-- [First Floor, East Wing](#first-floor-east)
+- [First floor, east wing](#first-floor-east)
 - [Home](#home)
 
 -----------------------------------------------------------------------------
 
-First Floor, Entrance & West Wing {#first-floor-west}
+First floor, entrance & west wing {#first-floor-west}
 ---------------------------------
 
 ### Porch
@@ -122,7 +122,7 @@ _(counter-clockwise from front door)_
 * Crumpled first draft of note in trash can
 * Door to basement is locked
 
-Second Floor
+Second floor
 ------------
 
 ### South hall
@@ -304,7 +304,7 @@ Basement
 * Newspaper clipping in drawer
 * Hidden stairs behind bookcase
 
-First Floor, East Wing {#first-floor-east}
+First floor, east wing {#first-floor-east}
 ----------------------
 
 ### Hidden room
