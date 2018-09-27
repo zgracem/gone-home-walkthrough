@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; border: 0; outline: 0; background: transparent; font: inherit; text-decoration: none; vertical-align: baseline; }
+
+ul, ol { list-style: none; }
+
+b, strong { font-weight: bold; }
+
+i, cite, em, var, address, dfn { font-style: italic; }
+
+s, del { text-decoration: line-through; }
+
+u, ins { text-decoration: underline; }
+
+q:before { content: "“"; }
+
+q:after { content: "”"; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+sup, sub { font-size: 75%; line-height: 0; }
+
+sup { vertical-align: super; }
+
+sub { vertical-align: sub; }
+
+mark { background: #ff0; color: #000; }
+
+pre, code, kbd, samp { font-size: 1em; }
+
+pre { white-space: pre-wrap; }
+
+nobr { white-space: nowrap; }
+
+wbr:after { content: "​"; }
+
+::-moz-selection { background: #aa00aa !important; color: #ffff55 !important; text-shadow: none !important; text-decoration: none !important; }
+
+::selection { background: #aa00aa !important; color: #ffff55 !important; text-shadow: none !important; text-decoration: none !important; }
+
+::-moz-selection { background: #aa00aa !important; color: #ffff55 !important; text-shadow: none !important; text-decoration: none !important; }
+
+abbr[title] { border-bottom: 0 !important; }
+
+img { max-width: 100%; }
+
+@font-face { font-family: "IBM VGA8"; src: url("/gone-home-walkthrough/fonts/ibm_vga8.woff2") format("woff2"), url("/gone-home-walkthrough/fonts/ibm_vga8.woff") format("woff"), url("/gone-home-walkthrough/fonts/ibm_vga8.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+body { font-family: "IBM VGA8"; font-size: 16px; line-height: 1.111; margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-smooth: never; }
+
+b, strong { font-weight: normal; }
+
+i, cite, em, var, address, dfn { font-style: normal; }
+
+a { text-decoration: none; color: inherit; }
+
+html { background-color: #000000; background-image: radial-gradient(circle, #000000 0%, #000000 50%, #200020 100%); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+
+body { line-height: 1.2; color: #aaaaaa; margin: 4em auto; max-width: 42em; }
+
+a:link, a:visited { color: #00aaaa; }
+
+a:hover, a:active { color: #55ffff; }
+
+h1 em { text-decoration: underline; }
+
+h1 { color: #ffffff; margin-bottom: 2em; }
+h1::before { content: "⌂"; margin-left: -1em; margin-right: 0.5em; }
+
+h2 { color: #aa00aa; border-top: 1px solid #555555; padding-top: 0.5em; margin-top: 2.5em; margin-bottom: 2em; margin-left: -1em; text-indent: 1em; }
+
+h3 { color: #aa5500; margin-top: 2em; margin-bottom: 1em; }
+
+p, ul { margin-bottom: 1em; }
+
+ul li { text-indent: -1em; }
+ul li::before { content: "○"; margin-right: 0.5em; }
+ul ul { margin-left: 1em; margin-bottom: 0; }
+ul ul li::before { content: "»"; }
+
+h1 + ul li::before { content: "»"; }
+
+li em:before, li em:after, hr + p em:before, hr + p em:after { content: '"'; }
+
+code { color: #00aaaa; }
+
+strong { font-weight: normal; color: #aa0000; }
+
+h3#porch + ul strong, h3#attic + ul strong { color: #00aa00; }
+
+hr { height: 1em; margin: 1em 0 3em 0; }
+
+hr + p { color: #555555; }
