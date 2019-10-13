@@ -224,7 +224,7 @@ Second floor
 Secrets
 -------
 
-### Passage from master bedroom closet to library
+### Master bedroom closet, passage to library
 
 - Map on wall
     - Adds hidden compartments to map
