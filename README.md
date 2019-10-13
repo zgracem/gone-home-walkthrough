@@ -1,6 +1,6 @@
 # Gone Home walkthrough
 
-This guide lists all(?) points of interest in [Fullbright][]'s 2013 exploration game, [Gone Home][].
+This guide lists all(?) points of interest in [Fullbright]'s 2013 exploration game, [Gone Home].
 
 [Fullbright]: https://fullbrig.ht/
 [Gone Home]:  http://gonehome.game/
@@ -19,6 +19,6 @@ This guide lists all(?) points of interest in [Fullbright][]'s 2013 exploration 
 
 ## Credits
 
-The VGA font is from [The Ultimate Oldschool PC Font Pack][fonts].
+The VGA font is from [The Ultimate Oldschool PC Font Pack].
 
-[fonts]: https://int10h.org/oldschool-pc-fonts/
+[The Ultimate Oldschool PC Font Pack]: https://int10h.org/oldschool-pc-fonts/
