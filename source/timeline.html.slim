@@ -1,0 +1,42 @@
+---
+title: Gone Home timeline
+---
+
+- pre_74 = data.timeline.select { |t| sort_date(t) <= Date.parse("1973-12-31") }
+- pre_94 = data.timeline.select { |t| sort_date(t) >= Date.parse("1974-01-01") and sort_date(t) <= Date.parse("1993-12-31") }
+- all_94 = data.timeline.select { |t| sort_date(t) >= Date.parse("1994-01-01") and sort_date(t) <= Date.parse("1994-12-31") }
+- all_95 = data.timeline.select { |t| sort_date(t) >= Date.parse("1995-01-01") and sort_date(t) <= Date.parse("1995-12-31") }
+
+h1 <em>Gone Home</em> Timeline
+
+ul
+  li = link_to "Before 1974", "#before-1974"
+  li = link_to "1974–1993", "#1974-1993"
+  li = link_to "1994", "#1994"
+  li = link_to "1995", "#1995"
+
+hr
+
+h2#before-1974 Before 1974
+
+ul
+  - pre_74.each do |event|
+    li #{timeline_date event}
+
+h2#1974-1993 1974–1993
+
+ul
+  - pre_94.each do |event|
+    li #{timeline_date event}
+
+h2#1994 1994
+
+ul
+  - all_94.each do |event|
+    li #{timeline_date event}
+
+h2#1995 1995
+
+ul
+  - all_95.each do |event|
+    li #{timeline_date event}
