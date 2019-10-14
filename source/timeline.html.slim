@@ -2,41 +2,45 @@
 title: Gone Home timeline
 ---
 
-- pre_74 = data.timeline.select { |t| sort_date(t) <= Date.parse("1973-12-31") }
-- pre_94 = data.timeline.select { |t| sort_date(t) >= Date.parse("1974-01-01") and sort_date(t) <= Date.parse("1993-12-31") }
+- pre_70 = data.timeline.select { |t| sort_date(t) <= Date.parse("1969-12-31") }
+- pre_94 = data.timeline.select { |t| sort_date(t) >= Date.parse("1970-01-01") and sort_date(t) <= Date.parse("1993-12-31") }
 - all_94 = data.timeline.select { |t| sort_date(t) >= Date.parse("1994-01-01") and sort_date(t) <= Date.parse("1994-12-31") }
 - all_95 = data.timeline.select { |t| sort_date(t) >= Date.parse("1995-01-01") and sort_date(t) <= Date.parse("1995-12-31") }
 
-h1 <em>Gone Home</em> Timeline
+h1 <em>Gone Home</em> timeline
 
 ul
-  li = link_to "Before 1974", "#before-1974"
-  li = link_to "1974–1993", "#1974-1993"
+  li = link_to "Before 1970", "#before1970"
+  li = link_to "1970–1993", "#1970-1993"
   li = link_to "1994", "#1994"
   li = link_to "1995", "#1995"
 
 hr
 
-h2#before-1974 Before 1974
+h2#before1970 Before 1970
 
-ul
-  - pre_74.each do |event|
-    li #{timeline_date event}
+dl
+  - pre_70.each do |event|
+    dt = timeline_date event
+    dd = event.event
 
-h2#1974-1993 1974–1993
+h2#1970-1993 1970–1993
 
-ul
+dl
   - pre_94.each do |event|
-    li #{timeline_date event}
+    dt = timeline_date event
+    dd = event.event
 
 h2#1994 1994
 
-ul
+dl
   - all_94.each do |event|
-    li #{timeline_date event}
+    dt = timeline_date event
+    dd = event.event
 
 h2#1995 1995
 
-ul
+dl
   - all_95.each do |event|
-    li #{timeline_date event}
+    dt = timeline_date event
+    dd = event.event

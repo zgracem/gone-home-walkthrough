@@ -21,13 +21,13 @@ module DateHelpers
     else
       begin
         raw_date = Date.parse(event.date.to_s)
-        date << raw_date.strftime('%b. %-d, %Y')
+        date << raw_date.strftime('%B %-d, %Y')
       rescue
         date << event.date.to_s
       end
     end
 
-    "#{date} &mdash; #{event.event}"
+    "#{date}"
   end
 
   def sort_date(event)
