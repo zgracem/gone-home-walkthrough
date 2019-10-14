@@ -89,3 +89,5 @@ h3#porch + ul strong, h3#attic + ul strong { color: #00aa00; }
 hr { height: 1em; margin: 1em 0 3em 0; }
 
 hr + p { color: #555555; }
+
+dd { margin-left: 1.5em; }
