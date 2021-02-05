@@ -19,7 +19,7 @@ configure :build do
   config[:http_prefix] = "/gone-home-walkthrough"
 end
 
-config[:relative_links] = true
+config[:relative_links] = false
 
 # Slim
 
@@ -45,7 +45,7 @@ end
 
 configure :production do
   activate :autoprefixer do |config|
-    config.browsers = ["last 2 versions", "Explorer >= 9", "> 5%"]
+    config.browsers = ["> 1%"]
     config.ignore   = ["#{config[:css_dir]}/ie.css"]
   end
 end
