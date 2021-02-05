@@ -58,7 +58,7 @@ a:link, a:visited { color: #00aaaa; }
 
 a:hover, a:active { color: #55ffff; }
 
-h1 em { text-decoration: underline; }
+main + footer cite, h1 em { text-decoration: underline; }
 
 h1 { color: #ffffff; margin-bottom: 2em; }
 
@@ -70,13 +70,13 @@ h3 { color: #aa5500; margin-top: 2em; margin-bottom: 1em; }
 
 p, ul { margin-bottom: 1em; }
 
-ul li { text-indent: -1em; }
+main ul li { text-indent: -1em; }
 
-ul li::before { content: "\25cb"; margin-right: 0.5em; }
+main ul li::before { content: "\25cb"; margin-right: 0.5em; }
 
-ul ul { margin-left: 1em; margin-bottom: 0; }
+main ul ul { margin-left: 1em; margin-bottom: 0; }
 
-ul ul li::before { content: "\00bb"; }
+main ul ul li::before { content: "\00bb"; }
 
 h1 + ul li::before { content: "\bb"; }
 
@@ -88,8 +88,18 @@ strong { font-weight: normal; color: #aa0000; }
 
 h3#porch + ul strong, h3#attic + ul strong { color: #00aa00; }
 
-hr { height: 1em; margin: 1em 0 3em 0; }
+main + footer { text-align: center; color: #555555; margin-top: 4em; }
 
-hr + p { color: #555555; }
+main + footer nav ul { margin-bottom: 2em; }
+
+main + footer nav ul li { display: inline-block; }
+
+main + footer nav ul li + li::before { content: "\a0\2502\20"; }
+
+main + footer nav ul li span.here { color: #ffffff; }
+
+main + footer nav + p { margin-top: 0; }
+
+main + footer, main + footer nav + p { padding-top: 1em; border-top: 1px solid rgba(85, 85, 85, 0.5); }
 
 dd { margin-left: 1.5em; }

@@ -139,8 +139,3 @@ Home
 
 - Note on sleeping bag: "I Said Yes"
 - Journal on end table: "Where I Need to Be"
-
------------------------------------------------------------------------------
-
-_Gone Home_ © 2013 The Fullbright Company.
-This walkthrough © 2021 Z.G.M.

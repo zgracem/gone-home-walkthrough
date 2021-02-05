@@ -79,7 +79,7 @@ h3
 p, ul
   margin-bottom: 1em
 
-ul
+main ul
   li
     text-indent: -1em
 
@@ -87,7 +87,7 @@ ul
     content: "\25cb"
     margin-right: 0.5em
 
-  & &
+  ul
     margin-left: 1em
     margin-bottom: 0
 
@@ -113,12 +113,33 @@ h3#porch, h3#attic
   & + ul strong
     color: $cga-green
 
-hr
-  height: 1em
-  margin: 1em 0 3em 0
-
-hr + p
+main + footer
+  text-align: center
   color: $cga-brblack
+
+  margin-top: 4em
+
+  nav ul
+    margin-bottom: 2em
+
+    li
+      display: inline-block
+
+      & + li::before
+        content: "\a0\2502\20"
+
+      span.here
+        color: $cga-brwhite
+
+  nav + p
+    margin-top: 0
+
+  &, & nav + p
+    padding-top: 1em
+    border-top: 1px solid fade-out($cga-brblack, 0.5)
+
+  cite
+    @extend %underline
 
 dd
   margin-left: 1.5em

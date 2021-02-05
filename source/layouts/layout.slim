@@ -7,4 +7,39 @@ html lang="en-US"
     = stylesheet_link_tag "gonehome"
 
   body
-    == yield
+    main
+      == yield
+
+    footer
+      nav
+        ul
+          li
+            - if current_resource.path == "index.html"
+              span class="here" Walkthrough
+            - else
+              = link_to "Walkthrough", "index.html"
+          li
+            - if current_resource.path == "timeline.html"
+              span class="here" Timeline
+            - else
+              = link_to "Timeline", "timeline.html"
+          li
+            - if current_resource.path == "journals.html"
+              span class="here" Speedreader
+            - else
+              = link_to "Speedreader", "journals.html"
+
+      p
+        cite> Gone Home
+        ' © 2013
+        a href="https://fullbrig.ht/" target="_blank" The Fullbright Company
+        ' . This
+        => current_resource.path[/timeline/] ? "timeline" : "walkthrough"
+        ' © 2016–#{Date.today.year}
+        a href="https://inescapable.org/~zgm" target="_blank" Z.G.M.
+        br
+        ' Fonts by
+        a href="https://int10h.org/oldschool-pc-fonts/" target="_blank" VileR
+        ' . View source
+        a href="https://github.com/zgracem/gone-home-walkthrough" target="_blank" on GitHub
+        | .

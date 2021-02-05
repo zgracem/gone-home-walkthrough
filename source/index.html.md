@@ -411,8 +411,3 @@ Home
 ### End credits
 
 - Heavens to Betsy, "Complicated"
-
------------------------------------------------------------------------------
-
-_Gone Home_ © 2013 The Fullbright Company.
-Walkthrough © 2016 Z.G.M.
