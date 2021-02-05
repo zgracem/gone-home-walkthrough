@@ -30,7 +30,7 @@ Slim::Engine.options[:pretty]       = false
 
 # SASS
 
-require "sass"
+require "sassc"
 
 config[:sass][:cache] = false
 config[:sass][:line_numbers] = false

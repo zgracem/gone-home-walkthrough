@@ -1,6 +1,1 @@
-.bundle
-.cache
-.DS_Store
 .keep
-.sass-cache
-Gemfile.lock
