@@ -29,6 +29,6 @@ exploration game, [Gone Home].
 
 ## Credits
 
-The VGA font is from [The Ultimate Oldschool PC Font Pack].
+The VGA font is from [The Ultimate Oldschool PC Font Pack] (v2.2) by VileR.
 
 [The Ultimate Oldschool PC Font Pack]: https://int10h.org/oldschool-pc-fonts/
