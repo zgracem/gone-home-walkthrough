@@ -39,8 +39,9 @@ Second floor
 
 ### Sam's room, locker
 
-- Basement key taped to door
-- Photo of Lonnie on door: "There Was Nothing Wrong"
+- Lock combination: `0-50-1`
+- Basement key taped to inside of door
+- Photo of Lonnie inside door: "There Was Nothing Wrong"
 
 ### Sam's bathroom
 
@@ -55,13 +56,14 @@ Second floor
 - Button on closet ceiling
     - Opens bookcase door to basement
 
-Secrets
--------
+Passage to basement
+-------------------
 
-### Passage to east wing
+### Hidden room
 
-- Letter from Principal Grossman on table: "Getting Lonnie"
-- Unlock door to foyer from east hall
+- Letter from principal on table: "Getting Lonnie"
+- Door to foyer in east hall
+    - Unlocks from this side
 
 Basement
 --------
@@ -99,7 +101,7 @@ First floor, west wing {#first-floor-west}
 
 ### Library, hidden compartment
 
-- Miss-fits flyer: "Adjusting to the Dark"
+- Flyer: "Adjusting to the Dark"
 
 ### West hall closet
 
@@ -110,11 +112,11 @@ First floor, east wing {#first-floor-east}
 
 ### East hall
 
-- TV guide clipping under folder: "The&nbsp;Nunnery"
+- Clipping under folder: "The&nbsp;Nunnery"
 
 ### Dining room
 
-- Letter in folder on dining table: "A Very Long Phase"
+- School form in folder on dining table: "A Very Long Phase"
 
 ### Kitchen
 
