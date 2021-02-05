@@ -1,165 +1,144 @@
 ---
-title: "Gone Home: Sam's journals"
+title: 'Gone Home: "Speedreader" walkthrough'
 ---
 
-_Gone Home_: Sam's journals
-===========================
+_Gone Home_: "Speedreader" walkthrough
+======================================
 
-- [First floor, west wing](#first-floor-west)
+- [First floor, entrance](#first-floor-entrance)
 - [Second floor](#second-floor)
+- [Secrets](secrets)
 - [Basement](#basement)
+- [First floor, west wing](#first-floor-west)
 - [First floor, east wing](#first-floor-east)
 - [Home](#home)
 
 -----------------------------------------------------------------------------
 
-First floor, west wing {#first-floor-west}
-----------------------
+First floor, entrance {#first-floor-entrance}
+---------------------
 
 ### Porch
 
-- Front door key under Christmas Duck in west cabinet
+- Front door key in west cabinet, under Christmas Duck
 
 ### Foyer
 
-- Movers' invoice on box
-    - "At the New House"
+- Invoice in folder on box: "At the New House"
 
-### West hall, closet
+### Foyer, secret room
 
-- School letter in knapsack
-    - "First Day of School"
-
-### TV room
-
-- Book next to TV: _Making Friends, Even When You're Shy_
-    - "Big Gold Star"
-
-### Library, hidden compartment
-
-- Miss-fits flyer
-    - "Adjusting to the Dark"
-
-### Music room, closet
-
-- Letter to Jan from Daniel's mom in jacket pocket
-    - "Default Friends"
-
-### West hall
-
-- Note b/w Sam and Lonnie in bottom drawer of dresser
-    - "Best-Laid Plans"
+- Attic key on box: "In The&nbsp;Attic"
 
 Second floor
 ------------
 
 ### South hall
 
-- Bratmobile tape case in bookshelf cabinet
-    - "Hanging Out with Girls"
+- Tape case in bookshelf cabinet: "Hanging Out with Girls"
 
 ### Sam's room, locker
 
-- Photo of Lonnie on door
-    - "There Was Nothing Wrong"
 - Basement key taped to door
+- Photo of Lonnie on door: "There Was Nothing Wrong"
 
 ### Sam's bathroom
 
-- Bottle of hair dye next to tub
-    - "Dealing with Roots"
+- Bottle of hair dye next to tub: "Dealing with Roots"
 
 ### Sitting room
 
-- Note from Lonnie in drawer
-    - "Lie-to-Mom-and-Dad Situation"
+- Note in drawer: "Lie-to-Mom-and-Dad Situation"
+
+### Guest room
+
+- Button on closet ceiling
+    - Opens bookcase door to basement
+
+Secrets
+-------
+
+### Passage to east wing
+
+- Letter from Principal Grossman on table: "Getting Lonnie"
+- Unlock door to foyer from east hall
 
 Basement
 --------
 
-### First room
+### Junk room
 
-- "S+L" drawing on table
-    - "It's Different Now"
-
-### Storage
-
-- Letter to Sam from Reed College on box
-    - "Ship Date"
+- Postcard on table: "Stick With The&nbsp;Group"
 
 ### Servant's quarters
 
-- Girlscout setlist on wall
-    - "I Can Sing"
+- Setlist on wall: "I Can Sing"
 
-### Junk room
+### Storage
 
-- Multnomah Falls postcard on table
-    - "Stick With The&nbsp;Group"
+- Letter on box: "Ship Date"
+
+### First room
+
+- Drawing on box: "It's Different Now"
+
+First floor, west wing {#first-floor-west}
+----------------------
+
+### West hall
+
+- Note in bottom drawer of dresser: "Best-Laid Plans"
+
+### Music room, closet
+
+- Letter in jacket pocket: "Default Friends"
+
+### TV room
+
+- Book next to TV: "Big Gold Star"
+
+### Library, hidden compartment
+
+- Miss-fits flyer: "Adjusting to the Dark"
+
+### West hall closet
+
+- Letter in knapsack: "First Day of School"
 
 First floor, east wing {#first-floor-east}
 ----------------------
 
-### Hidden room
-
-- Letter from Principal Grossman on table
-    - "Getting Lonnie"
-
 ### East hall
 
-- TV guide clipping under folder
-    - "The&nbsp;Nunnery"
+- TV guide clipping under folder: "The&nbsp;Nunnery"
 
 ### Dining room
 
-- Letter from Dad to Sam in same folder
-    - "A Very Long Phase"
+- Letter in folder on dining table: "A Very Long Phase"
 
 ### Kitchen
 
-- Story on kitchen table: "Samantha and Danyal"
-    - "Daniel"
+- Story on kitchen table: "Daniel"
 
 ### Garage
 
-- ROTC cap on bike handlebar
-    - "Just Gone"
-- Unusually light empties in recycle bin (**1**/3)
-- Basketball in rafters (**2**/3)
+- Cap on bike handlebar: "Just Gone"
 
 ### East hall, cont'd
 
-- Girlscout flyer in open compartment
-    - "Dedication"
+- Crumpled flyer in open compartment: "Dedication"
 
 ### Greenhouse
 
-- Note from Sam on table next to door
-    - "Life Goes On"
+- Note on table next to door: "Life Goes On"
 
 Home
 ----
 
-### Foyer, secret room
-
-- Attic key on box
-    - "In The&nbsp;Attic"
-
-### Sam's room
-
-- Basketball hoop on door (**3**/3)
-    - "Meow, Meow, Meow"
-
 ### Attic
 
-- Goodbye note from Lonnie on sleeping bag
-    - "I Said Yes"
-- "Letters to Katie" on end table
-    - "Where I Need to Be"
-
-### End credits
-
-- Heavens to Betsy, "Complicated"
+- Note on sleeping bag: "I Said Yes"
+- Journal on end table: "Where I Need to Be"
 
 -----------------------------------------------------------------------------
 

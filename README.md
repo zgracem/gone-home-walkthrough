@@ -1,6 +1,7 @@
 # Gone Home walkthrough
 
-This guide lists all(?) points of interest in [Fullbright]'s 2013 exploration game, [Gone Home].
+This walkthrough lists all(?) points of interest in [Fullbright]‘s 2013 story
+exploration game, [Gone Home].
 
 [Fullbright]: https://fullbrig.ht/
 [Gone Home]:  http://gonehome.game/
@@ -8,6 +9,15 @@ This guide lists all(?) points of interest in [Fullbright]'s 2013 exploration ga
 ## Preview
 
 <https://zgracem.github.io/gone-home-walkthrough>
+
+### Additional guides
+
+- A [timeline] of every date in, or which can be inferred from, the game.
+- A complete list of [journals] on the shortest(?) route through the house,
+  to assist with the ”**Speedreader**“ achievement.
+
+[timeline]: https://zgracem.github.io/gone-home-walkthrough/timeline
+[journals]: https://zgracem.github.io/gone-home-walkthrough/journals
 
 ## Development
 
